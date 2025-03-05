@@ -237,6 +237,13 @@ or just message [me on Discord](https://discord.com/users/713118695165263923)
 - Test with small amounts before running with large amounts
 - Monitor the bot regularly
 
+## Donations
+
+If dis bot helps u to make sum money, maybe u wanna share sum of it.
+```
+0x2D438b5F9dBb11fB406a92Fd97476f4Cdc9947D1
+```
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.

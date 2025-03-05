@@ -1,0 +1,15 @@
+# Required configuration
+RPC_URL=https://eth-mainnet.alchemyapi.io/v2/or_any_other_provider
+PRIVATE_KEY=your_private_key_here_without_0x_prefix
+WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_id/your_webhook_token
+
+# Contract addresses
+HONEY_ADDRESS=0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce
+LOCKS_ADDRESS=0xb7e448e5677d212b8c8da7d6312e8afc49800466
+PORRIDGE_ADDRESS=0xbf2e152f460090ace91a456e3dee5acf703f27ad
+
+# Optional configuration
+BORROW_THRESHOLD=1000000000000000000  # Only borrow if we can borrow more than the BORROW_THRESHOLD in wei (avoids looping for small amounts)
+ALLOW_WALLET_HONEY=false  # Set to true to use wallet HONEY if borrowed amount isn't enough
+SWAP_LEFTOVER_HONEY=true  # Set to true to swap leftover HONEY to LOCKS
+CYCLE_INTERVAL=120  # Time between cycles in seconds
